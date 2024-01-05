@@ -2,7 +2,6 @@ export const LINK_CLIENT = "/auth/dashboard"
 const roles = [
     "SUPER_ADMIN", "MANAGER", "ADMIN", "EDU_CENTER", "TEACHER", "STUDENT", "USER"
 ]
-
 const role = localStorage.getItem("role")
 export const SIDE_ARR =
  role===roles[0]?[
