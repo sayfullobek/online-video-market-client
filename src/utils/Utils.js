@@ -14,6 +14,11 @@ export const SIDE_ARR =
         {name:"Foydalanuvchilar", logo:"", link:`${LINK_CLIENT}/users`},
         {name:"Statistika", logo:"", link:`${LINK_CLIENT}/statistics`},
     ]
+    }, 
+    {name:"Foydalanuvchilar bo'limi", arr:
+        [
+            {name:"Tarmoqlar", logo:"", link:`${LINK_CLIENT}/aware`}
+        ]
     }
 ]:role===roles[1]?[
     {name:"Boshqaruv bo'limi", arr:
