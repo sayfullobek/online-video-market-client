@@ -1,7 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { DashboardLayout } from "./layout/DashboardLayout"
 import { Dashboard } from "./pages/Dashboard"
-
+import {UserLayout} from "./layout/UserLayout.jsx";
+import {Menu} from "./pages/user/Menu.jsx";
+import './assets/user/css/style.css'
+import "react-multi-carousel/lib/styles.css"
 function App() {
   return (
     <>
@@ -9,6 +12,9 @@ function App() {
       <Routes>
           <Route path="/auth/dashboard" element={<DashboardLayout/>}>
               <Route index element={<Dashboard/>}/>
+          </Route>
+          <Route path={"/"} element={<UserLayout/>}>
+              <Route index element={<Menu/>}/>
           </Route>
       </Routes>
     </BrowserRouter>
