@@ -1,6 +1,23 @@
 export const Dashboard =()=>{
     return(
         <div>
+          {/* <Zoom
+            isVisible={true} // show or hide the modal (default to false)
+            width="50%" // width of the modal in css format (default to "100%")
+            maxWidth="200px"
+            height="50%" // height of the modal in css format (default to "100%")
+            maxHeight="50%"
+            hAlign="center" // horizontal alignment ["left", "center", "right"] (default to "center")
+            vAlign="center" // vertical alignment ["top", "center", "bottom"] (default to "center")
+            offset={{ // offset from the current layout position
+                x: '-20px', // horizontal offset in css format (default to "0")
+                y: '5%' // vertical offset in css format (default to "0")
+            }}
+            zIndex={99} // zIndex for the modal (default to 1)
+            // overlay={someNode} // jsx node element to create a background overlay
+        >
+ 
+        </Zoom> */}
             <div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
