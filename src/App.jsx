@@ -4,7 +4,6 @@ import { Dashboard } from "./pages/Dashboard"
 import {UserLayout} from "./layout/UserLayout.jsx";
 import {Menu} from "./pages/user/Menu.jsx";
 import './assets/user/css/style.css'
-import "react-multi-carousel/lib/styles.css"
 function App() {
   return (
     <>
